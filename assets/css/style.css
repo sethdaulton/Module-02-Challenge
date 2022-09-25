@@ -15,13 +15,13 @@ h1 {
 }
 
 h2 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   letter-spacing: 1px;
 }
 
 header h2 {
   font-size: 40px;
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-weight: normal;
   color: blue;
   margin-bottom: -80px;
@@ -36,16 +36,17 @@ header h2 {
   height: auto;
 }
 
-.sidebar {
-  display: flex;
-  width: 200px;
-  padding: 20px;
-}
-
 .container {
   display: inline-block;
   border: solid;
   padding: 50px;
+}
+
+.about-me-image {
+  width: 250px;
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .portfolio-item {
@@ -60,7 +61,7 @@ header h2 {
 }
 
 .text-block {
-  background-color:rgb(86, 86, 86);
+  background-color: rgb(86, 86, 86);
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -94,9 +95,9 @@ header h2 {
   .text-block {
     position: absolute;
     bottom: 40px;
-    right: 20px;
+    right: 80px;
     width: auto;
-    background-color:rgb(86, 86, 86);
+    background-color: rgb(86, 86, 86);
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -200,11 +201,11 @@ li a:hover {
     float: right;
     display: block;
   }
+}
 
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive .icon {
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -214,6 +215,4 @@ li a:hover {
     display: block;
     text-align: left;
   }
-
 }
-
