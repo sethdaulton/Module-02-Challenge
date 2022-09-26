@@ -6,6 +6,8 @@ For this challenge I was tasked with building a portfolio page from scratch. Thi
 
 My portfolio page is divided up into several sections: "About Me", "Work", "Contact", and "CV". The user can access each section by using the navigation at the top of the page. I have set up anchors to jump to each section of the website. The portfolio page is responsive and adjusts to fit smaller and larger screens alike.
 
+The images I have used for my "Work" section are just placeholders until I have executed more projects. 
+
 ## Screenshot
 
 ![alt text](assets/images/Screen-Shot-Portfolio-Website.png)
