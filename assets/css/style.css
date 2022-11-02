@@ -57,7 +57,7 @@ header h2 {
 
 .portfolio-featured {
   position: relative;
-  max-width: 800px;
+  max-width: 300px;
   border: solid 5px;
   border-color: blue;
 }
